@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+<p id="paragraph">Sparksammy is dreaming, in his dream he is in a dark room, all he has is a candle, a flamethrower, and a chainsaw. How does he get out of the dark?</p>
+</div>
+
+<div id="command-input">
+Command: <input type="text" id="command" value="">
+
+<button onclick="myFunction()">Enter command</button>
+
+<script>
+function myFunction() {
+  if (document.getElementById("command").value == "wake up" && document.getElementById("paragraph").innerHTML == "Sparksammy is dreaming, in his dream he is in a dark room, all he has is a candle, a flamethrower, and a chainsaw. How does he get out of the dark?") {
+    document.getElementById("paragraph").innerHTML = "Congrats on completing the tech demo! There will be more to come soon™, but for now you have saved Sparksammy. Congrats!"
+  }
+  document.getElementById("command").value = "";
+}
+</script>
+</div>
+</body>
+</html>

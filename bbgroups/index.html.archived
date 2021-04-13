@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Baldi's Basics Groups</title>
+<style>
+body {
+	background-color: #062d02;
+	color: green;
+}
+b {
+	color: lime;
+}
+i {
+	color: lime;
+}
+h1 {
+	color: lime;
+}
+h2 {
+	color: lime;
+}
+h3 {
+	color: lime;
+}
+a:link {
+	color: lime;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(138, 229, 135);
+}
+
+a:active {
+    color: rgb(92, 175, 89);
+}
+
+#header-icon {
+    clip-path: circle(50% at center);
+}
+</style>
+</head>
+
+<body>
+<div align=center id="header">
+<img src="about.png" width="15%" id="header-icon">
+<br><h1>Baldi's Basics Groups</h1>
+<hr>
+<a target="_blank" href="https://www.roblox.com/My/Groups.aspx?gid=4191220">Baldi's Basics in ROBLOX and Friendship</a>
+<a target="_blank" href="https://www.roblox.com/My/Groups.aspx?gid=4396456"> Baldi's Basics Security Team</a>
+<hr>
+</div>
+
+<div align="center" id="body">
+<div id="home-content" align="center">
+	<p></p><h2>With us you're doing FANTASTIC!</h2><p></p>
+		<p>We are a set of groups on ROBLOX themed around the "Baldi's Basics" franchise of video games, and if Baldi branched out to ROBLOX games. As always, we hope you have a fantastic time in our group, making friends that are like-minded.</p>
+		<b><i><p>Enjoy!</p></i></b>
+</div>
+</div>
+
+<div align="center" id="footer">
+<hr>
+<p>Made by Sam_Lord/Sparksammy and his friends</p>
+</div>
+</body>
+</html>

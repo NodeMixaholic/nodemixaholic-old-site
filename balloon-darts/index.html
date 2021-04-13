@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Balloon darts</title>
+        <script>
+            var score = 0;
+            var intervalID = window.setInterval(randomPOS, 3000);
+            function randomPOS() {
+                var top=Math.floor(Math.random() * Math.floor(90));             
+                var left=Math.floor(Math.random() * Math.floor(90));                    
+                document.getElementById("balloon").style.top=top+"%";                   
+                document.getElementById("balloon").style.left=left+"%"
+            }
+
+            function addScore() {
+                score = score + 1;
+                document.getElementById("score").innerHTML = "<h1>" + score + "</h1>";
+            }
+        </script>
+    </head>
+    <body>
+        <div id="score" style="text-align: center;"><h1>0</h1></div>
+        <div id="balloon" style="position: relative;">
+            <img src="balloon.png" width="10%" height="10%" onclick="addScore(); randomPOS()">
+        </div>
+        <script>randomPOS()</script>
+		<hr>
+		<p>Copyright Samuel Lord, 2019.</p>
+    </body>
+</html>

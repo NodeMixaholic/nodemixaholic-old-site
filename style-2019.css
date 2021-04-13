@@ -1,0 +1,124 @@
+ /* The side navigation menu */
+/*
+FONTS:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(37, 150, 0);
+	background-color: rgb(28, 28, 28);
+}
+
+p,b,i,a {
+	font-size: 1.5vw;
+}
+
+a {
+	color: rgb(0, 255, 0);
+}
+
+h1,h2 {
+	font-family: 'Anton', sans-serif;
+}
+
+h1 {
+	font-size: 2.3vw;
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75vw;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.6vw;
+}
+
+h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.45vw;
+}
+
+h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2vw;
+}
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #000000;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	font-size: 2vw;
+	color: #00FF00;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+	width: 10em;
+	align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Active/current link */
+.sidebar a.active {
+	background-color: #555555;
+	color: #00FF00;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+	background-color: #424242;
+	color: #00FF00;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+	margin-left: 200px;
+	padding: 1px 16px;
+	height: 100%;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+} 
