@@ -1,10 +1,7 @@
 HTMLArray = []
 
-HTMLArray.push(`<h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Samuel Lord, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it’s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
+HTMLArray.push(`<img src="me.png" width="5em"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Samuel Lord, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it’s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
 
-Want to donate some Bitcoin to me? Send it here: bc1ql9p2h8zpuxwyupgc2c29r6sujn7dmlkfx6gp3t
-
-Also: you could share this site using this link if nothing else: https://cb.run/sparksmy
 <br>
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
 <p align="right">--Oscar Wilde.</p>
