@@ -1,6 +1,6 @@
 HTMLArray = []
 
-HTMLArray.push(`<img src="me.png" width="5em"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Samuel Lord, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it’s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
+HTMLArray.push(`<img src="me.png" width="5%"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Samuel Lord, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it’s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
 
 <br>
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
