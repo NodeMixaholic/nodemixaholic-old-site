@@ -28,15 +28,15 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 HTMLArray = []
 
-HTMLArray.push(`<img src="me.png" width="5%"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is [REDACTED], but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it’s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
+HTMLArray.push(`<img src="me.png" width="5%"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Rusty, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or itâ€™s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
 
 <br>
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
 <p align="right">--Oscar Wilde.</p>
-<p>"Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Samuel (Sparksammy) Lord</p>
+<p>"Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Sparksammy</p>
 `);
 
-HTMLArray.push(`<h2>Hello, world! Welcome to my blog!</h2> <hr> 10/31/2020 <h3>Hello, world!</h3><br> <p>Hello, my name is [REDACTED], but you can call me Sparksammy! I worked quite a bit on this site, but now there's a huge banner for WiX. Oh well. It bothers me quite a bit, because I am stuck on the Free plan until I get a TON of cash, but I don't want to pay like 14$/month just to get a website builder. In fact, I prefer my software to be FOSS when it's feasible. Oh well. Good night.
+HTMLArray.push(`<h2>Hello, world! Welcome to my blog!</h2> <hr> 10/31/2020 <h3>Hello, world!</h3><br> <p>Hello, my name is Rusty, but you can call me Sparksammy! I worked quite a bit on this site, but now there's a huge banner for WiX. Oh well. It bothers me quite a bit, because I am stuck on the Free plan until I get a TON of cash, but I don't want to pay like 14$/month just to get a website builder. In fact, I prefer my software to be FOSS when it's feasible. Oh well. Good night.
 
 <br>
 Update: went to sleep at 3:20am. just finished the site. Mostly minor touches between then and now, but a lot of minor touches. Good night.
