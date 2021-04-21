@@ -42,7 +42,7 @@ HTMLArray.push(`<h2>Hello, world! Welcome to my blog!</h2> <hr> 10/31/2020 <h3>H
 Update: went to sleep at 3:20am. just finished the site. Mostly minor touches between then and now, but a lot of minor touches. Good night.
 <br>
 
-Update 2: Oops! I forgot to add this. "Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Samuel (Sparksammy) Lord</p>
+Update 2: Oops! I forgot to add this. "Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Rusty (Sparksammy) Sparkyford</p>
 Update 3 (11/4/2020): This was when my site used WiX, made a few days before this version of the site.`);
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
