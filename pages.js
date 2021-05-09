@@ -57,6 +57,10 @@ function loadLocalPage(pageID) {
 	document.getElementById("mainScreen").innerHTML = html
 }
 
-const urlParams = new URLSearchParams(window.location.href);
-const pageid=urlParams.get("page")
-loadLocalPage(Number(pageid))
+
+
+document.addEventListener('DOMContentLoaded', function() {
+	const urlParams = new URLSearchParams(window.location.search);
+	const pageid=urlParams.get("page")
+  	loadLocalPage(parseFloat(pageid))
+}, false);
