@@ -70,5 +70,7 @@ function loadLocalPage(pageID) {
 document.addEventListener('DOMContentLoaded', function() {
 	const urlParams = new URLSearchParams(window.location.search);
 	const pageid=urlParams.get("page")
-  	loadLocalPage(parseFloat(pageid))
+  	if (pageid != null) {
+		loadLocalPage(parseFloat(pageid))
+	}
 }, false);
