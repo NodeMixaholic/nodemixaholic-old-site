@@ -34,6 +34,14 @@ HTMLArray.push(`<img src="me.png" width="5%"></img><h2>Hello, world! Welcome to 
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
 <p align="right">--Oscar Wilde.</p>
 <p>"Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Sparksammy</p>
+<h2>Want to help me out?</h2><br><p>Want to help make sparkSammy.com and our servers better, buy me a coffee, and perhaps a computer with a few clicks? Maybe less?  If so, please donate to my paypal. Thanks!<br>
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="samuel.lord@tutanota.com" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</p>
 `);
 
 HTMLArray.push(`<h2>Hello, world! Welcome to my blog!</h2> <hr> 10/31/2020 <h3>Hello, world!</h3><br> <p>Hello, my name is Rusty, but you can call me Sparksammy! I worked quite a bit on this site, but now there's a huge banner for WiX. Oh well. It bothers me quite a bit, because I am stuck on the Free plan until I get a TON of cash, but I don't want to pay like 14$/month just to get a website builder. In fact, I prefer my software to be FOSS when it's feasible. Oh well. Good night.
