@@ -52,7 +52,9 @@ Update 3 (11/4/2020): This was when my site used WiX, made a few days before thi
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
       <li><a onclick="loadLocalPage(1)" href="#">Blog</a></li>
-      <li><a href="https://github.com/sparksammy">GitHub</a></li>`);
+      <li><a href="https://github.com/sparksammy">GitHub</a></li>
+      <li><a href="https://roflcraft.apexmc.co:39854/">RoflCraft</a></li>
+      <li><a href="https://sparksammy.com/veeargh/">VeeArgh</a></li>`);
 
 function loadLocalPage(pageID) {
 	var html = HTMLArray[pageID]
