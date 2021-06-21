@@ -28,7 +28,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 HTMLArray = []
 
-HTMLArray.push(`<img src="me.png" width="120vw"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Rusty, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or itâ€™s someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
+HTMLArray.push(`<img src="me.png" width="120vw"></img><h2>Hello, world! Welcome to my website.</h2><p>Welcome to sparkSammy.com! My name is Rusty, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it's someone pretending to be me, so keep that in mind. Most importantly, enjoy my website!
 
 <br>
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
@@ -53,7 +53,6 @@ Update 3 (11/4/2020): This was when my site used WiX, made a few days before thi
 HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
       <li><a onclick="loadLocalPage(1)" href="#">Blog</a></li>
       <li><a href="https://github.com/sparksammy">GitHub</a></li>
-      <li><a href="https://roflcraft.apexmc.co:39854/">RoflCraft</a></li>
       <li><a href="https://sparksammy.com/veeargh/">VeeArgh</a></li>`);
 
 function loadLocalPage(pageID) {
