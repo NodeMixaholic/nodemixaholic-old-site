@@ -34,6 +34,9 @@ HTMLArray.push(`<img src="me.png" width="120vw"></img><h2>Hello, world! Welcome 
 <p><h3><i>Have a great one!</i></h3></p><p><h4><i>Peace!</i></h4></p><br><p align="center">"Be yourself; Everyone else is already taken".</p>
 <p align="right">--Oscar Wilde.</p>
 <p>"Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Sparksammy</p>
+<p>
+Donate:
+<br>Monero: donate.sparksammy.com
 
 </p>
 `);
@@ -47,14 +50,14 @@ Update: went to sleep at 3:20am. just finished the site. Mostly minor touches be
 Update 2: Oops! I forgot to add this. "Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom." ~~Rusty (Sparksammy) Sparkyford</p>
 Update 3 (11/4/2020): This was when my site used WiX, made a few days before this version of the site.
 
-<h2>A quick update</h2> <hr> 5/8/2021 <h3>Quick update time!</h3> <br> <p>I am now on Odysee, and I have a new service I am testing called BasedNet, located at sparksammy.com:2052! Also I will leave this here for all you OGs who remember: rofl.spaksammy.com/rofl-anarchy.sparksammy.com. Good night!<br> Update 5/8/2021: portarofl.sparksammy.com:42944/portarofl-anarchy.sparksammy.com:42943</p>
+<h2>A quick update</h2> <hr> 5/8/2021 <h3>Quick update time!</h3> <br> <p>I am now on Odysee, and I have a new service I am testing called BasedNet, located at sparksammy.com:2052! Also I will leave this here for all you OGs who remember: rofl.spaksammy.com/rofl-anarchy.sparksammy.com. Good night!<br> Update 5/8/2021: portarofl.sparksammy.com:42944/portarofl-anarchy.sparksammy.com:42943</p><br><p>Update 7/3/2021: now on rofl.sparksammy.com but only on when i feel like playing, so make sure to keep an eye out!</p>
 `);
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
       <li><a onclick="loadLocalPage(1)" href="#">Blog</a></li>
-      <li><a href="https://github.com/sparksammy">GitHub</a></li>
-      <li><a href="https://sparksammy.com/veeargh/">VeeArgh</a></li>
-      <li><a href="https://sparksammy.com/oklomsy-truth/">Truth about Oklomsy</a></li>`);
+      <li><a href="https://github.com/sparksammy">GitHub (Warning: Microsoft service!)</a></li>
+      <li><a href="veeargh/">VeeArgh</a></li>
+      <li><a href="oklomsy-truth/">Truth about Oklomsy</a></li>`);
 
 function loadLocalPage(pageID) {
 	var html = HTMLArray[pageID]
