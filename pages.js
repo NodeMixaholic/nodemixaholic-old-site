@@ -57,7 +57,8 @@ HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
       <li><a onclick="loadLocalPage(1)" href="#">Blog</a></li>
       <li><a href="https://github.com/sparksammy">GitHub (Warning: Microsoft service!)</a></li>
       <li><a href="veeargh/">VeeArgh</a></li>
-      <li><a href="oklomsy-truth/">Truth about Oklomsy</a></li>`);
+      <li><a href="oklomsy-truth/">*SOMEWHAT SATIRE* Truth about Oklomsy</a></li>
+      <li><a href="why-roblox-is-evil/">Why ROBLOX is evil</a></li>`);
 
 function loadLocalPage(pageID) {
 	var html = HTMLArray[pageID]
