@@ -55,10 +55,10 @@ Update 3 (11/4/2020): This was when my site used WiX, made a few days before thi
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0)" href="#">Home</a></li>
       <li><a onclick="loadLocalPage(1)" href="#">Blog</a></li>
-      <li><a href="https://github.com/sparksammy">GitHub (Warning: Microsoft service!)</a></li>
-      <li><a href="veeargh/">VeeArgh</a></li>
-      <li><a href="oklomsy-truth/">*SOMEWHAT SATIRE* Truth about Oklomsy</a></li>
-      <li><a href="why-roblox-is-evil/">Why ROBLOX is evil</a></li>`);
+      <li><a href="https://github.com/sparksammy" target="_blank">GitHub (Warning: Microsoft service!)</a></li>
+      <li><a href="veeargh/" target="_blank">VeeArgh (canceled project due to lost files)</a></li>
+      <li><a href="oklomsy-truth/" target="_blank">*SOMEWHAT SATIRE* Truth about Oklomsy</a></li>
+      <li><a href="why-roblox-is-evil/" target="_blank">Why ROBLOX is evil</a></li>`);
 
 function loadLocalPage(pageID) {
 	var html = HTMLArray[pageID]
