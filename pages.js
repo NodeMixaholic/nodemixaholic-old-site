@@ -38,7 +38,7 @@ HTMLArray.push(`
 <p>tfw you find an easter egg.</p>
 `);
 
-HTMLArray.push(`<li><a onclick="loadLocalPage(0)" onclick="menuActive = false;" href="#">Home</a></li>
+HTMLArray.push(`<li><a onclick="loadLocalPage(0); menuActive = false;" href="#">Home</a></li>
       <li><a href="https://odysee.com/@sparksammy:c?order=new" target="_blank">Videos</a></li>
       <li><a href="https://github.com/sparksammy" target="_blank">GitHub</a></li>
 	  <li><a href="https://sparksammy.com/oklomsy-truth/" target="_blank">*SATIRE* Truth about Oklomsy</a></li>
