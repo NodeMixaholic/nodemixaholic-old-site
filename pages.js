@@ -42,7 +42,6 @@ HTMLArray.push(`<li><a onclick="loadLocalPage(0); menuActive = false;" href="#">
       <li><a href="https://sparksammy.com/blog2022" target="_blank">Blog</a></li>
       <li><a href="https://odysee.com/@sparksammy:c?order=new" target="_blank">Videos</a></li>
       <li><a href="https://github.com/sparksammy" target="_blank">GitHub</a></li>
-	  <li><a href="https://sparksammy.com/oklomsy-truth/" target="_blank">*SATIRE* Truth about Oklomsy</a></li>
       <li><a href="https://sparksammy.com/why-roblox-is-evil/" target="_blank">Why ROBLOX is evil</a></li>
 `);
 
