@@ -1,13 +1,13 @@
 
-    html { font-size: 3vmin; }
-    p {font-size: 3vmin;}
-    b {font-size: 3.2vmin;}
-    a {font-size: 3.23vmin;} 
-    h6 {font-size: 3.23vmin;}
-    h5 {font-size: 3.35vmin;}
-    h4 {font-size: 3.5vmin;}
-    h3 {font-size: 3.6vmin;}
-    h2 {font-size: 3.8vmin;}
-    h1 {font-size: 4vmin;}
+    html { font-size: 1vmax; }
+    p {font-size: 1vmax;}
+    b {font-size: 1.2vmax;}
+    a {font-size: 1.23vmax;} 
+    h6 {font-size: 1.23vmax;}
+    h5 {font-size: 1.35vmax;}
+    h4 {font-size: 1.5vmax;}
+    h3 {font-size: 1.6vmax;}
+    h2 {font-size: 1.8vmax;}
+    h1 {font-size: 2vmax;}
     
-    body { font-family: Arial, Helvetica, sans-serif; background-color: #f4e5b5; }
+    body { font-family: Arial, Helvetica, sans-serif; background-color: #f4e5b5; text-align: center; }
