@@ -5,35 +5,29 @@ Also make it so it has a background thats tan and a nice font color of black.*/
 body {
     background-color: #f1ebc5;
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5vmax;
     color: black;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5vmax;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2vmax;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 1.5vmax;
 }
 h3{
-    font-size: 1.2em;
+    font-size: 1.2vmax;
 }
 h4{
-    font-size: 1em;
+    font-size: 1vmax;
 }
 h5{
-    font-size: 0.8em;
+    font-size: 0.8vmax;
 }
 h6{
-    font-size: 0.7em;
-}
-
-/*dynamically size all images based on screen size*/
-img {
-    width: 100%;
-    height: auto;
+    font-size: 0.7vmax;
 }
