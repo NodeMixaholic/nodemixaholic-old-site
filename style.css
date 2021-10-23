@@ -1,13 +1,39 @@
+/*Create a CSS stylesheet for a website.
+Make it sans serif, have dynamic fonts that change based on the screen size.
+Also make it so it has a background thats tan and a nice font color of black.*/
 
-    html { font-size: 1.3vmax; }
-    p {font-size: 1.3vmax;}
-    b {font-size: 1.43vmax;}
-    a {font-size: 1.43vmax;} 
-    h6 {font-size: 1.43vmax;}
-    h5 {font-size: 1.45vmax;}
-    h4 {font-size: 1.46vmax;}
-    h3 {font-size: 1.7vmax;}
-    h2 {font-size: 1.8vmax;}
-    h1 {font-size: 2vmax;}
-    
-    body { font-family: Arial, Helvetica, sans-serif; background-color: #f4e5b5; text-align: center; }
+body {
+    background-color: #f1ebc5;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.2em;
+}
+h4{
+    font-size: 1em;
+}
+h5{
+    font-size: 0.8em;
+}
+h6{
+    font-size: 0.7em;
+}
+
+/*dynamically size all images based on screen size*/
+img {
+    width: 100%;
+    height: auto;
+}
