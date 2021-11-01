@@ -23,15 +23,15 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 @licend
 */
 
-//Sparksammy Pages
+//Pages
 
 HTMLArray = []
 var menuActive = false
 var previousHTML;
 HTMLArray.push(`
 <h1>Hello, world! Welcome to my app/website.</h1><br>
-<p>Welcome! My name is Rusty, but you can just call me Sparksammy. However, please spell the brand "sparkSammy" as sparkSammy. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it's someone pretending to be me, so keep that in mind. Most importantly, enjoy my app/website!</p>
-<p>Have a great one! Peace!</p>
+<p>Welcome! My name is Sam, but you can just call me NodeMixaholic. My skills are programming, eating, sleeping, working with computer-based technology. If you see any silly posts from me on social media, they are probably from a long time ago or it's someone pretending to be me, so keep that in mind. Most importantly, enjoy my app/website!</p>
+<p>Have a great and safe life!</p>
 `);
 
 HTMLArray.push(`
@@ -39,10 +39,10 @@ HTMLArray.push(`
 `);
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0); menuActive = false;" href="#">Home</a></li>
-      <li><a href="https://sparksammy.com/blog2022" target="_blank">Blog</a></li>
+      <li><a href="/blog2022" target="_blank">Blog</a></li>
       <li><a href="https://odysee.com/@sparksammy:c?order=new" target="_blank">Videos</a></li>
-      <li><a href="https://github.com/sparksammy" target="_blank">GitHub</a></li>
-      <li><a href="https://sparksammy.com/why-roblox-is-evil/" target="_blank">Why ROBLOX is evil</a></li>
+      <li><a href="https://github.com/nodemixaholic" target="_blank">GitHub</a></li>
+      <li><a href="/why-roblox-is-evil/" target="_blank">Why ROBLOX is evil</a></li>
 `);
 
 function loadLocalPage(pageID) {
