@@ -1,2 +1,2 @@
-# sparksammy.github.io
+# Node Mixaholic Open Web Project
 my website
