@@ -45,7 +45,7 @@ console.log("NodeMixaholic is the Best!")
   console.log("Booo");
 });
   
- Math.floor(Math.floor(Math.random() * 15000) + 1000)
+ await new Promise(r => setTimeout(r, Math.floor(Math.floor(Math.random() * 15000) + 1000)));
 
   window.location.href = "ct-keepalive.html"
  
