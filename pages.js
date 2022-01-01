@@ -40,7 +40,9 @@ HTMLArray.push(`
 
 HTMLArray.push(`<li><a onclick="loadLocalPage(0); menuActive = false;" href="#">Home</a></li>
       <li><a href="/blog2022" target="_blank">Blog</a></li>
-      <li><a href="https://odysee.com/@sparksammy:c?order=new" target="_blank">Videos</a></li>
+      <li><a href="https://odysee.com/@sparksammy:c?order=new" target="_blank">Videos (Odysee, it has exclusives!)</a></li>
+      <li><a href="https://youtube.com/sparksammy1" target="_blank">Videos (Youtube, no exclusives...)</a></li>
+      <li><a href="https://twitch.tv/NodeMixaholic" target="_blank">Twitch</a></li>
       <li><a href="https://github.com/nodemixaholic" target="_blank">GitHub</a></li>
       <li><a href="/why-roblox-is-evil/" target="_blank">Why ROBLOX is evil</a></li>
 `);
